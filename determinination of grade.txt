@@ -1,0 +1,13 @@
+mark=int(input("enter the marks:"))
+if(mark>=90):
+    print("grade is",s)
+elif(mark>=80):
+    print("grade is",A)
+elif(mark>=70):
+    print("grade is",B)
+elif(mark>=60):
+    print("grade is",C)
+elif(mark>=50):
+    print("grade is",D)
+else:
+    print("student is failed")
