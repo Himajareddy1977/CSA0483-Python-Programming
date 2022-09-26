@@ -1,0 +1,6 @@
+c='a friend in need is a friend indeed'
+words= [word.lower() for  word in c.split()]
+words.sort()
+print(' words in alphabetical order:')
+for word in words:
+    print(word)
