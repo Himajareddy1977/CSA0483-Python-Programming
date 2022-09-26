@@ -1,0 +1,5 @@
+pi=3.14
+radius =int(input('enter number'))
+r=radius
+area=r*r*pi
+print('area of circle',area)
