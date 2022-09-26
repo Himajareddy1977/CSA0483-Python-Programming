@@ -1,0 +1,5 @@
+a='hi, good morning'
+print('the given string:',a)
+b = len(a.split())
+print('tne no of words are :',str(b))
+print('the no of characters are :', len(a))
