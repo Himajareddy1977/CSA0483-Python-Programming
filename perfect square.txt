@@ -1,0 +1,5 @@
+u=int(input("Enter a number: "))
+a=[]
+a=[x for x in range(1,u+1) if (int(x**0.5))**2==x and sum(list(map(int,str(x))))<10]
+print("the perfect square of given number is:",a)
+print("the total numbers of perfect squares are:",len(a))
