@@ -1,0 +1,8 @@
+def palindrome(a):
+    a==a[::-1]
+    a='malayalam'
+
+if True:
+    print("the given number is palindrome")
+else:
+        print("the given number is not palindrome")
