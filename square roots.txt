@@ -1,0 +1,10 @@
+import cmath
+print("the quadratic equation should ax**2 + bx + c = 0")
+a=int(input("enter the a value:"))
+b=int(input("enter the b value:"))
+c=int(input("enter the c value:"))
+d=(b**2)-(4*a*c)
+s1=(-b-cmath.sqrt(d))/(2*a)
+s2=(-b+cmath.sqrt(d))/(2*a)
+print('the solution of quadratic equation are:',(s1, s2))
+
