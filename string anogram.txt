@@ -1,0 +1,9 @@
+def strings(s1,s2):
+    
+    if(sorted(s1)==sorted(s2)):
+        print ("the string are anogram")
+    else:
+        print ("the string are not anogram")
+s1=str(input("enter a string"))
+s2=str(input("enter a second string"))
+strings(s1,s2)
