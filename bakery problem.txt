@@ -1,0 +1,13 @@
+print("welcome.....its of discount offer..")
+a=int(input("enter the no. of fresh loaves:"))
+b=int(input("enter the no. of old days loaves:"))
+print("loaves discount..")
+print("regular price:185.00")
+d=(185.00*a)
+c=(b*0.6*185.00)
+format_float="{:.2f}".format(c)
+print("amount of new loaves:",d)
+print("amount of old loaves:",format_float)
+print("total amount:",d+c)
+
+
