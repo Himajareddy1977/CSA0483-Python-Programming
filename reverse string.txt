@@ -1,0 +1,7 @@
+a=input("enter a value")
+reverse=" "
+count=len(a)
+while(count>0):
+    reverse+=a[count-1]
+    count=count-1
+print(reverse)
