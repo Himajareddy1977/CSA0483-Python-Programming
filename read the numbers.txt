@@ -1,0 +1,16 @@
+print("enter numbers to exit.. pease enter -1 ")
+a=[]
+b=[]
+while True:
+    n=int(input("Enter the number "))
+    if(n==-1):
+        break
+    if(n>0):
+        a.append(n)
+    else:
+        b.append(n)
+
+pos=(sum(a)/len(a))
+neg=(sum(b)/len(b))
+print("The average of negative number is: ",neg)
+print("The average of positive number is: ",pos)
