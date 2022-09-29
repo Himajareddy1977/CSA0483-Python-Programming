@@ -1,5 +1,11 @@
 p=int(input("enter the principle"))
-n=int(input("enter the time"))
-r=int(input("enter the rate"))
-si=(p*n*r)/100
-print("simple interest is:",si)
+t=int(input("enter the time"))
+print("is customer is senior citizen (y/n)")
+c=input("enter y or n")
+if c=='y':
+    r=12
+if c=='n':
+    r=10
+si=p*t*r/100
+print(si)
+    
