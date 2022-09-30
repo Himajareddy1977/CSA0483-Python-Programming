@@ -1,0 +1,13 @@
+def ispalindrome(s) :
+    rev =''.join(reversed(s))
+    if (s==rev):
+        return True
+    return False
+s=input("enter the word")
+ans= ispalindrome(s)
+if(ans):
+    print("true")
+    print("Explanation:",s," reads as",s,"from left to right and from right to left")
+else:
+    print("false")
+    print("Explanation: From left to right, it reads",s,"From right to left, it becomes ",s,". Therefore it is not a palindrome.")
