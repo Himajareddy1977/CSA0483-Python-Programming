@@ -1,0 +1,5 @@
+m=input("enter a value:")
+n=input("enter a value:")
+m,n=n,m
+print("swap value of m:",m)
+print("swap value of n:",n)
